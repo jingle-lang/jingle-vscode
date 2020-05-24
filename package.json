@@ -1,0 +1,25 @@
+{
+    "name": "jingle-lang",
+    "displayName": "Jingle Lang",
+    "description": "Language support for the Jingle programming language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "jingle",
+            "aliases": ["Jingle", "jingle"],
+            "extensions": [".jn"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "jingle",
+            "scopeName": "source.jn",
+            "path": "./syntaxes/jingle.tmLanguage"
+        }]
+    }
+}
