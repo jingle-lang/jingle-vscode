@@ -84,31 +84,31 @@
           <key>match</key>
           <string>(Float)</string>
           <key>name</key>
-          <string>keyword.operator.jingle</string>
+          <string>storage.type.jingle</string>
         </dict>
         <dict>
           <key>match</key>
           <string>(Int)</string>
           <key>name</key>
-          <string>keyword.operator.jingle</string>
+          <string>storage.type.jingle</string>
         </dict>
         <dict>
           <key>match</key>
           <string>(Char)</string>
           <key>name</key>
-          <string>keyword.operator.jingle</string>
+          <string>storage.type.jingle</string>
         </dict>
         <dict>
           <key>match</key>
           <string>(Bool)</string>
           <key>name</key>
-          <string>keyword.operator.jingle</string>
+          <string>storage.type.jingle</string>
         </dict>
         <dict>
           <key>match</key>
           <string>([a-zA-Z][0-9a-zA-Z]*(?:_[0-9a-zA-Z]+)*)</string>
           <key>name</key>
-          <string>punctuation.jingle</string>
+          <string>entity.name.jingle</string>
         </dict>
         <dict>
           <key>begin</key>
@@ -172,25 +172,25 @@
           <key>match</key>
           <string>(,)</string>
           <key>name</key>
-          <string>punctuation.jingle</string>
+          <string>keyword.operator.jingle</string>
         </dict>
         <dict>
           <key>match</key>
           <string>(-&gt;)</string>
           <key>name</key>
-          <string>punctuation.jingle</string>
+          <string>keyword.operator.jingle</string>
         </dict>
         <dict>
           <key>match</key>
           <string>(:)</string>
           <key>name</key>
-          <string>punctuation.jingle</string>
+          <string>keyword.operator.jingle</string>
         </dict>
         <dict>
           <key>match</key>
           <string>(=)</string>
           <key>name</key>
-          <string>punctuation.jingle</string>
+          <string>keyword.operator.jingle</string>
         </dict>
         <dict>
           <key>match</key>
